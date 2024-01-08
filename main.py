@@ -10,8 +10,8 @@ import time
 from datetime import datetime
 #from database.users_chats_db import db
 
-API_ID = "25450075"
-API_HASH = "278e22b00d6dd565c837405eda49e6f2"
+API_ID = "23435751"
+API_HASH = "2345de86dfb7ec6ef52ee0c16dd11dea"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = "mongodb+srv://AbhiModszYT:AbhiModszYT@abhimodszyt.flmdtda.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
@@ -42,7 +42,7 @@ EMOJIOS = [
 ]
       
 START = f"""
-**๏ Hie Baby🐒 ๏**
+**๏ Hie Baby🥰 ๏**
 """
 
 @bot.on_message(filters.command(["start", "aistart", f"start@{BOT_USERNAME}"]))
@@ -332,6 +332,6 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
+print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 ")      
 bot.run()
-#@ Mr.Daxx
+#@RAJPUT681830
